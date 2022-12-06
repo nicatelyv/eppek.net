@@ -1,0 +1,57 @@
+main {
+    .first_section {
+        background-image: url(../images/bgimage1.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 950px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .firstsectionmainbox{
+            width: auto;
+            height: auto;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 120px;
+            #maintext{
+                width: auto;
+                height: auto;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+            }
+            #firstsectionitem{
+                width: auto;
+                height: auto;
+                display: flex;
+                gap: 100px;
+                div{
+                    width: 200px;
+                    height: 200px;
+                    border-radius: 100%;
+                    background-color: rgb(255, 255, 255);
+                    display: flex;align-items: center;justify-content: center;
+
+                }
+            }
+        }
+    }
+
+    .ekmeginasiluretiyoruz{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        .all{
+            width: 60%;
+            height: auto;
+            border: 3px solid red;
+        }
+    }
+}
