@@ -31,6 +31,7 @@ main {
                 height: auto;
                 display: flex;
                 gap: 100px;
+                overflow: hidden;
                 div{
                     width: 200px;
                     height: 200px;
@@ -45,13 +46,41 @@ main {
 
     .ekmeginasiluretiyoruz{
         width: 100%;
-        height: 100vh;
+        height: auto;
         display: flex;
         justify-content: center;
+        overflow: hidden;
         .all{
-            width: 60%;
+            width: 70%;
             height: auto;
-            border: 3px solid red;
+            margin-top: 50px;
+            display: flex;
+            overflow: hidden;
+            .all-left{
+                width: 50%;
+                height: auto;
+                overflow: hidden;
+            }
+            .all-right{
+                width: 50%;
+                height: auto;
+               overflow: hidden;
+            }
         }
     }
+    .onsiparis{
+        width: 100%;
+        height: 450px;
+        background-image: url(../images/d7323f_a81977b3dd8f477e87d610727057ace2_mv2.png);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+
 }
